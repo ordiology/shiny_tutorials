@@ -39,5 +39,5 @@ I have created an [install script](https://github.com/ordiology/shiny_tutorials/
                             
 The apps that have been developed for this workshop have all been designed to be displayed at 100% scale and layout. To display the apps optimally, please make sure your display settings are set up appropriately. Note that the default for a small screened Windows laptop, for example, is 150% scale and layout:
  
-![Change "Scale and Layout" in "Display Settings" to 100%](www/images/display_settings.png)
+![Change "Scale and Layout" in "Display Settings" to 100%](readme_images/display_settings.png)
   
