@@ -2,9 +2,6 @@
 title: "R Shiny Workshop Material"
 author: "Dr Louise Ord"
 date: "28/10/2019"
-output: 
-  html_document: 
-    keep_md: true
 ---
 
 
