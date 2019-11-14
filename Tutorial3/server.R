@@ -97,7 +97,7 @@ server <- function(input, output) {
     
     # Set the margins of the plot (mar) and the amount relative to the default that all text
     # and symbols should be scaled by (cex)
-    par(mar = c(4.6, 4.1, 0, 1), cex = 1.5)
+    par(mar = c(4.6, 4.1, 1, 1), cex = 1.5)
     
     # This plots the data using closed circle symbols (pch) and selecting the colour (col) for each point depending 
     # on its given cluster. The colour palette (palette_blue) is pre-defined in the global environment.
@@ -119,7 +119,7 @@ server <- function(input, output) {
   output$species <- renderPlot(height = 380, {
     
     # The top margin is widened to allow placement of a legend
-    par(mar = c(4.6, 4.1, 0, 1), cex = 1.5)
+    par(mar = c(4.6, 4.1, 1, 1), cex = 1.5)
     # This plot is similar to the one above but the points are now coloured by species using the pre-defined 
     # palette palette_red
     plot(selectedData()[,1:2], col =  palette_red[selectedData()[, as.numeric(Species)]], pch = 19)
