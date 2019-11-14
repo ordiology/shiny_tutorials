@@ -1,6 +1,6 @@
 ---
 title: "R Shiny Workshop Material"
-author: "Dr Louise Ord"
+author: "Dr Ord"
 date: "28/10/2019"
 ---
 
