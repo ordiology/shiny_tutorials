@@ -1,0 +1,194 @@
+/*----------------------------------------------------------------------//
+//  Custom css script for Shiny applications built with shinydashboard 
+//
+//  Author: Louise Ord
+//  Date: 11-01-2019
+//
+//  Last modified by: Louise Ord
+//  Date: 18-02-2019
+//----------------------------------------------------------------------*/
+
+/*-------//
+   Fonts 
+//-------*/
+
+/* Calibri family, twice current size, very dark grey body text */
+body {
+    font-family: "Calibri" !important;
+    font-size: 16px !important;
+}
+
+
+/* very dark grey Calibri header text */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: "Calibri" !important;
+    color: #202020;
+}
+
+/* link text */
+a {
+    color: #2585e6 !important;
+}
+
+a:hover {
+    color: #1bd1d1 !important;
+}
+
+/* code snippets */
+code {
+    background-color: #f5f5f5 !important;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    color: #333 !important;
+    background-color: #f5f5f5 !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+}
+
+/* code blocks */
+pre {
+    font-size: 14px !important;
+}
+
+/* horizontal row */
+hr {
+    border-top: 2px solid #eee;
+}
+
+/*-----------------//
+   Sidebar fonts
+//-----------------*/
+
+/* Sidebar font colour */
+.sidebar {
+    color: #202020 !important;
+    font-size: 16px !important;
+}
+
+/* very dark grey Calibri sidebar action text */
+.sidebar a {
+    font-family: "Calibri" !important;
+    color: #202020 !important;
+    font-size: 20px !important;
+}
+
+.sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li:hover>a {
+    color: #fff !important;
+}
+
+/* sidebar toggle text */
+.main-header .navbar .sidebar-toggle {
+    color: #fff !important;
+    font-size: 14px !important;
+    display: none;
+}
+
+/*-----------------//
+   Dashboard skin 
+//-----------------*/
+
+/* Header navbar */
+.main-header .navbar {
+    background-color: #202020 !important;
+}
+
+/* Header logo bar */
+.main-header .logo {
+    background-color: #202020 !important;
+}
+
+/* Sidebar */
+.main-sidebar {
+    color: #202020 !important;
+    background-color: #e1e1e1 !important;
+}
+
+/* Body area */
+.content-wrapper, .right-side {
+    background-color: #fff !important;
+}
+
+/* Sidebar active/hover menu item */
+.sidebar-menu>li.active>a, .sidebar-menu>li:hover>a {
+    background: #202020 !important;
+    border-left-color: #1bd1d1 !important;
+}
+
+/* Sidebar menu toggle */
+.sidebar-toggle:hover {
+    background-color: #1bd1d1 !important;
+}
+
+/* box title */
+.box-title{
+    color: #fff !important;
+    font-size: 20px !important;
+}
+
+/* solid primary box header colours */
+.box.box-solid.box-primary>.box-header {
+    background: #202020;
+    background-color: #202020;
+}
+
+/* solid primary box border colour */
+.box.box-solid.box-primary {
+    border: 1px solid #e1e1e1;
+}
+
+/*-----------------//
+   Buttons 
+//-----------------*/
+
+/* Default button style */
+.btn-default {
+    background-color: #2585e6 !important;
+    color: #fff !important;
+    border-color: #2585e6 !important;
+    font-size: 16px !important;
+}
+
+/* On hover default button style */
+.btn-default:hover {
+    background-color: #1bd1d1 !important;
+    color: #fff !important;
+    border-color: #1bd1d1 !important;
+}
+
+
+/* Default button active style */
+.btn-default:active {
+    background-color: #2585e6 !important;
+    color: #fff !important;
+    border-color: #2585e6 !important;
+}
+
+/*-----------------//
+    DT
+//-----------------*/
+
+/* pagination text */
+.pagination>li>a, .pagination>li>span {
+    color: #2585e6 !important;
+}
+
+.pagination>li>a:hover, .pagination>li>span:hover {
+    color: #1bd1d1 !important;
+}
+
+/* pagination active/focus text */
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    color: #fff !important;
+    background-color: #2585e6 !important;
+    border-color: #2585e6 !important;
+}
+
+/* selected row */
+.table.dataTable tbody td.active, .table.dataTable tbody tr.active td {
+    background-color: #d5d5d5 !important;
+}
+
+/* selection box slider */
+.noUi-connect {
+    background: #00a47a !important;
+}
